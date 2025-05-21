@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
-import { CursosModule } from './cursos/cursos.module';
-import { AlunosModule } from './alunos/alunos.module';
 
 @NgModule({
   declarations: [
@@ -19,8 +17,6 @@ import { AlunosModule } from './alunos/alunos.module';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    CursosModule,
-    AlunosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
